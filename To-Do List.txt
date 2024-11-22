@@ -1,0 +1,41 @@
+El objetivo de la prueba es crear una aplicación web que permita a los usuarios gestionar una lista de tareas (To-Do List) 
+con las siguientes funcionalidades:
+
+Añadir Tarea: Los usuarios deben poder añadir una tarea con título y descripción. 
+Las tareas nuevas deben mostrarse al principio de la lista.
+
+Editar Tarea: Las tareas deben poder editarse, incluyendo el título y la descripción.
+
+Marcar Como Completada: Los usuarios pueden marcar una tarea como completada o incompleta,
+ y esta debe cambiar visualmente (por ejemplo, tachar el texto).
+
+Eliminar Tarea: Los usuarios pueden eliminar una tarea de la lista.
+
+Filtrar Tareas: La lista debe permitir filtrar tareas según su estado (todas, completadas, incompletas).
+
+Persistencia: La aplicación debe guardar las tareas en localStorage para que persistan al recargar la página.
+
+
+Requisitos Técnicos
+
+Librerías:
+React , Next , VUE: se recomienda (no obligatorio) usar hooks como useState y useEffect.
+
+Redux (opcional): Para gestión del estado global si la lista de tareas tiene un flujo de datos complejo.
+
+CSS o Tailwind: Estilos libres, pero se valora la organización y diseño responsivo de la interfaz.
+
+Almacenamiento Persistente: Implementar la persistencia en localStorage para que las tareas se mantengan al refrescar la página.
+
+Criterios de Evaluación
+
+*Estructura adecuada de componentes, reutilización de código, y separación de lógica y presentación.
+*Que todas las funcionalidades solicitadas estén implementadas y funcionen correctamente.
+*Claridad en el código, uso adecuado de hooks, manejo de estado, y nombres descriptivos.
+*Correcto almacenamiento y recuperación de datos.
+*Estética de la aplicación, diseño simple pero funcional
+
+Bonus Points (Opcional)
+Descripcion del flujo sobre cada componentes
+Uso de TypeScript: Implementación en TypeScript para mejorar la tipificación.
+Pruebas Unitarias: Uso de Jest o React Testing Library para crear tests básicos en componentes clave.
